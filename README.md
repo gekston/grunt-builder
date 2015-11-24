@@ -46,13 +46,15 @@ $ grunt prod
 - 'concurrent:buildProd'
    - 'uglify'
 - 'concurrent:imgMin'
+   - 'imagemin'
 - 'concurrent:mathJax'
-    
+   - 'unzip'
+
 Prepea build for production
 ****
 ### About
 **clean.js**
->Clean folder 'build/*'
+>Clean folder build/*
 
 **copy.js**
 >
@@ -61,10 +63,10 @@ Prepea build for production
 >
 
 **uglify.js**
->
+>Minification .js files in build/js
 
 **imagemin.js**
->
+>Minification image
 
 **unzip.js**
->
+>Unzip file mathjax.zip
