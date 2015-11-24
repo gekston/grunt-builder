@@ -4,7 +4,7 @@ Dowload [https://nodejs.org/en/]
 
 Open cmd/gitBash and  run
 ```sh
-install npm
+$ npm install
 $ npm install -g grunt-cli
 ```
 Install plugin for grunt
