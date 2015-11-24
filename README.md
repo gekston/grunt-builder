@@ -54,7 +54,7 @@ $ grunt prod
 
 Preparation of the project to
 ****
-### About
+### Plugins
 **clean.js**
 >Clean folder build/*
 
