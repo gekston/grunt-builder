@@ -40,7 +40,7 @@ Run next tasks and prepeare build for develop:
   - 'copy'
   - 'concat'
 
-Creation build for developers
+Creation build for developer
 ```sh
 $ grunt prod
 ```
@@ -52,17 +52,21 @@ $ grunt prod
 - 'concurrent:mathJax'
    - 'unzip'
 
-Preparation of the project to
+Preparation of the project to production
 ****
 ### Plugins
 **clean.js**
 >Clean folder build/*
 
 **copy.js**
->
+>css/ all files to build/css/*
+>fonts from libs/materialize and font-awesome/fonts to build/css/fonts
 
 **concat.js**
->
+> - concat extended.js, prototype_to_jquery_ajax_helper.js and stub_for_growler.js in one extended.js
+> - jquery.min.js go too prototype.js
+> - materialize.min.js go too scriptaculous.js
+> - concat font-awesome.css, materialize.min.css in style.css
 
 **uglify.js**
 >Minification .js files in build/js
