@@ -75,4 +75,4 @@ Preparation of the project to production
 >Minification image
 
 **unzip.js**
->Unzip file mathjax.zip
+>Unzip file mathjax.zip to build/js/mathjax
