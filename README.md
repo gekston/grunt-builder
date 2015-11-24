@@ -1,7 +1,7 @@
 # grunt js-builder
 ### Installation
 ****
-Dowload [https://nodejs.org/en/]
+Download [https://nodejs.org/en/]
 
 Open cmd/gitBash and  run
 ```sh
