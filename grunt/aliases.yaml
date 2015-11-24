@@ -1,0 +1,19 @@
+default:
+  description: 'Clean folder build'
+  tasks:
+    - clean
+dev:
+  description: 'Copy/creation css/js default files'
+  tasks:
+    - 'concurrent:buildDev'
+dec:
+  description: 'test'
+  tasks:
+    - 'concurrent:mathJax'
+prod:
+  description: 'Production build'
+  tasks:
+    - 'concurrent:buildDev'
+    - 'concurrent:buildProd'
+    - 'concurrent:imgMin'
+    - 'concurrent:mathJax'
