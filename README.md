@@ -33,7 +33,7 @@ Clean folder 'build/*'
 
 Be careful!
 ```sh
-$ grunt dev
+$ grunt develop
 ```
 Run next tasks and prepeare build for develop:
 
@@ -43,7 +43,7 @@ Run next tasks and prepeare build for develop:
 
 Creation build for developer
 ```sh
-$ grunt prod
+$ grunt production
 ```
 - 'concurrent:buildDev'
 - 'concurrent:buildProd'

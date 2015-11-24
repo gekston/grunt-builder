@@ -1,6 +1,6 @@
-module.exports = {    
+module.exports = {
     all: {
-        src:['libs/mathjax/mathjax.zip'],
+        src:['lib/mathjax/mathjax.zip'],
         dest: 'build/js/mathjax/'
     }
 }

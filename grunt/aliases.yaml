@@ -2,7 +2,7 @@ default:
   description: 'Clean folder build'
   tasks:
     - clean
-dev:
+develop:
   description: 'Copy/creation css/js default files'
   tasks:
     - 'concurrent:buildDev'
@@ -10,7 +10,7 @@ dec:
   description: 'test'
   tasks:
     - 'concurrent:mathJax'
-prod:
+production:
   description: 'Production build'
   tasks:
     - 'concurrent:buildDev'
