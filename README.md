@@ -1,4 +1,5 @@
 # grunt js-builder
+![alt tag](http://gruntjs.com/img/grunt-logo.svg)
 ### Installation
 ****
 Download [https://nodejs.org/en/]
