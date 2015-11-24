@@ -44,6 +44,7 @@ $ grunt prod
 ```
 - 'concurrent:buildDev'
 - 'concurrent:buildProd'
+   - 'uglify'
 - 'concurrent:imgMin'
 - 'concurrent:mathJax'
     
