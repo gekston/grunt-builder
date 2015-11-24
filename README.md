@@ -13,6 +13,7 @@ $ npm install grunt --save-dev
 $ npm install time-grunt --save
 $ npm install load-grunt-config --save-dev
 $ npm install grunt-concurrent --save-dev
+$ npm install grunt-contrib-copy --save-dev
 $ npm install grunt-contrib-concat --save-dev
 $ npm install grunt-contrib-clean --save-dev
 $ npm install grunt-contrib-imagemin --save-dev
