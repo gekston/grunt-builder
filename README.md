@@ -50,7 +50,7 @@ $ grunt prod
 - 'concurrent:mathJax'
    - 'unzip'
 
-Prepea build for production
+Preparation of the project to
 ****
 ### About
 **clean.js**
