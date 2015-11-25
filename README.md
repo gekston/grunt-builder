@@ -59,7 +59,7 @@ $ grunt production
 - 'concurrent:mathJax'
    - 'unzip'
 
-Preparation of the project to production
+Preparation project to production
 ****
 ### Plugins
 **clean.js**
