@@ -6,6 +6,10 @@ develop:
   description: 'Copy/creation css/js default files'
   tasks:
     - 'concurrent:buildDev'
+imagemin:
+  description: 'Copy image from img/ and compress'
+  tasks:
+    - 'concurrent:imgMin'
 dec:
   description: 'test'
   tasks:
