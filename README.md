@@ -42,6 +42,12 @@ Run next tasks and prepeare build for develop:
   - 'concat'
 
 Creation build for developer
+
+```sh
+$ grunt imagemin
+```
+Start copy files from img/ and compress him
+
 ```sh
 $ grunt production
 ```
