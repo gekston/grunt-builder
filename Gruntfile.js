@@ -6,4 +6,5 @@ module.exports = function(grunt) {
         jitGrunt: true
     });
 grunt.loadNpmTasks('grunt-zip');
+grunt.loadNpmTasks('grunt-contrib-compress');
 };

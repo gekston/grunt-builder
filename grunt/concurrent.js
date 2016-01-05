@@ -1,15 +1,18 @@
 module.exports = {
   options: {
-    limit:3
+    limit:4
   },
   // develop tools
   buildDev: [
     'copy',
-    'concat'
+    'concat',
+    'imagemin',
+    'watch'
   ],
   // production tools
   buildProd: [
-    'uglify'
+    'uglify',
+    'unzip'
   ],
   imgMin: [
     'imagemin'

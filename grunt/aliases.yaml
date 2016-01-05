@@ -1,23 +1,22 @@
 default:
   description: 'Clean folder build'
   tasks:
+    - zip
     - clean
-develop:
+developer:
   description: 'Copy/creation css/js default files'
   tasks:
     - 'concurrent:buildDev'
-imagemin:
-  description: 'Copy image from img/ and compress'
-  tasks:
-    - 'concurrent:imgMin'
-dec:
+decompilation:
   description: 'test'
   tasks:
     - 'concurrent:mathJax'
+minification:
+  description: 'minification *.js files'
+  tasks:
+    - uglify
 production:
   description: 'Production build'
   tasks:
     - 'concurrent:buildDev'
     - 'concurrent:buildProd'
-    - 'concurrent:imgMin'
-    - 'concurrent:mathJax'

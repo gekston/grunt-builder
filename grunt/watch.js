@@ -11,7 +11,8 @@ module.exports = {
     ],
     tasks: [
       'copy',
-      'concat'
+      'concat',
+      'uglify'
     ]
   },
   styles: {
@@ -21,7 +22,8 @@ module.exports = {
       'libs/materialize/*.css'
     ],
     tasks: [
-      'copy'
+      'copy',
+      'uglify'
     ]
   },
 };
