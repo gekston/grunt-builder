@@ -21,6 +21,7 @@ $ npm install grunt-contrib-clean --save-dev
 $ npm install grunt-contrib-imagemin --save-dev
 $ npm install grunt-contrib-uglify --save-dev
 $ npm install grunt-zip --save-dev
+$ npm install grunt-contrib-compress --save-dev
 ```
 Options in builder
 ```sh
